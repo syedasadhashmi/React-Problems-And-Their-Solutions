@@ -15,6 +15,7 @@ const LeapYearChecker = () => {
 
   const checkLeapYear = () => {
     if (inputText.trim().length != 0) {
+      // it will check centuries by % 100 like 1900 1800 if it remainder is not 0 then it checks 400 so after each 400 years in century is a leap year
       if (
         (inputText % 4 === 0 && inputText % 100 !== 0) ||
         inputText % 400 === 0
