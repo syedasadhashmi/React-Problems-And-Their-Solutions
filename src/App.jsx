@@ -2,6 +2,7 @@ import ContactForm from "./questions/ContactForm";
 import InputFocus from "./questions/InputFocus";
 import Accordian from "./questions/Accordian";
 import GuessTheNumber from "./questions/GuessTheNumber";
+import ChipsInput from "./questions/ChipsInput";
 
 const items = [
   {
@@ -27,7 +28,8 @@ function App() {
     <div>
       <h1>Problem Solving</h1>
       {/* <Accordian items={items} /> */}
-      <GuessTheNumber />
+      {/* <GuessTheNumber /> */}
+      <ChipsInput />
     </div>
   );
 }
