@@ -4,6 +4,7 @@ import Accordian from "./questions/Accordian";
 import GuessTheNumber from "./questions/GuessTheNumber";
 import ChipsInput from "./questions/ChipsInput";
 import LeapYearChecker from "./questions/LeapYearChecker";
+import EvenOrOddChecker from "./questions/EvenOrOddChecker";
 
 const items = [
   {
@@ -31,7 +32,8 @@ function App() {
       {/* <Accordian items={items} /> */}
       {/* <GuessTheNumber /> */}
       {/* <ChipsInput /> */}
-      <LeapYearChecker />
+      {/* <LeapYearChecker /> */}
+      <EvenOrOddChecker />
     </div>
   );
 }
